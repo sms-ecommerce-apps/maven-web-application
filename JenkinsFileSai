@@ -22,7 +22,7 @@ node
     {
         sh "${mavenHome}/bin/mvn deploy"
     }
-    
+   /* 
     stage('DeployApptoTomcat')
     {
         sshagent(['b91a5a17-dda2-4e56-b17f-4187eedcfac0']) {
@@ -37,5 +37,5 @@ node
 Regards,
 SaiMasterSolutions.''', cc: 'gupta.vinod305@gmail.com', from: '', replyTo: '', subject: 'Script execution status', to: 'gupta.vinod305@outlook.com'
     }
-
+*/
 }
